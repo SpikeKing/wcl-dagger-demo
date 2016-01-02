@@ -1,10 +1,11 @@
-package clwang.chunyu.me.wcl_dagger_demo;
+package clwang.chunyu.me.wcl_dagger_demo.modules;
 
 import android.app.Application;
 import android.content.res.Resources;
 
 import javax.inject.Singleton;
 
+import clwang.chunyu.me.wcl_dagger_demo.DemoApplication;
 import dagger.Module;
 import dagger.Provides;
 
