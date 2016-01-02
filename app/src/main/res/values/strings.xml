@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">wcl-dagger-demo</string>
+    <string name="main_mock_data">自定义数据(测试)</string>
+    <string name="main_goto_activity">跳转列表</string>
+</resources>
