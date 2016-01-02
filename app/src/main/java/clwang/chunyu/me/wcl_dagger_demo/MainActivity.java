@@ -4,13 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.CompoundButton;
-
-import javax.inject.Inject;
 
 import butterknife.ButterKnife;
-import butterknife.OnCheckedChanged;
+import clwang.chunyu.me.wcl_dagger_demo.list.ReposListActivity;
 
+/**
+ * 主模块, 注册类.
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

@@ -10,11 +10,10 @@ import dagger.Module;
 import dagger.Provides;
 
 /**
- * 主要模块
+ * 主要模块, 提供Application和resources.
  * <p/>
  * Created by wangchenlong on 16/1/2.
  */
-// 主要模块
 @Module
 public class MainModule {
     private final DemoApplication mApp;

@@ -1,4 +1,4 @@
-package clwang.chunyu.me.wcl_dagger_demo;
+package clwang.chunyu.me.wcl_dagger_demo.list;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,8 +9,9 @@ import javax.inject.Inject;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import clwang.chunyu.me.wcl_dagger_demo.DemoApplication;
+import clwang.chunyu.me.wcl_dagger_demo.R;
 import clwang.chunyu.me.wcl_dagger_demo.contents.GitHubService;
-import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
@@ -38,11 +39,14 @@ public class ReposListActivity extends Activity {
 
         ListAdapter adapter = new ListAdapter();
         mRvList.setAdapter(adapter);
+        loadData(adapter);
+    }
 
+    // 加载数据
+    private void loadData(ListAdapter adapter) {
         mGitHubService.getRepoData("SpikeKing")
-                .flatMap(Observable::from)
                 .subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(adapter::addRepo);
+                .subscribe(adapter::setRepos);
     }
 }

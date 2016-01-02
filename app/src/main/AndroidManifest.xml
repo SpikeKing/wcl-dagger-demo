@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ReposListActivity"/>
+        <activity android:name=".list.ReposListActivity"/>
     </application>
 
 </manifest>

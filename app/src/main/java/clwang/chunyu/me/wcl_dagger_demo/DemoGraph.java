@@ -1,7 +1,9 @@
 package clwang.chunyu.me.wcl_dagger_demo;
 
+import clwang.chunyu.me.wcl_dagger_demo.list.ReposListActivity;
+
 /**
- * Dagger的图接口
+ * Dagger2的图接口
  * <p/>
  * Created by wangchenlong on 16/1/2.
  */

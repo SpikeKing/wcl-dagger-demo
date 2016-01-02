@@ -1,9 +1,8 @@
 package clwang.chunyu.me.wcl_dagger_demo.contents;
 
 import java.util.ArrayList;
-import java.util.List;
 
-import clwang.chunyu.me.wcl_dagger_demo.ListAdapter;
+import clwang.chunyu.me.wcl_dagger_demo.list.ListAdapter;
 import retrofit.http.GET;
 import retrofit.http.Path;
 import rx.Observable;

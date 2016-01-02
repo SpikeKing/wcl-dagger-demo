@@ -1,4 +1,4 @@
-package clwang.chunyu.me.wcl_dagger_demo;
+package clwang.chunyu.me.wcl_dagger_demo.list;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,21 +10,23 @@ import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import clwang.chunyu.me.wcl_dagger_demo.R;
 
 /**
  * RecyclerView的Adapter
+ * <p>
  * Created by wangchenlong on 16/1/2.
  */
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.RepoViewHolder> {
 
-    private ArrayList<Repo> mRepos;
+    private ArrayList<Repo> mRepos; // 库信息
 
     public ListAdapter() {
         mRepos = new ArrayList<>();
     }
 
-    public void addRepo(Repo repo) {
-        mRepos.add(repo);
+    public void setRepos(ArrayList<Repo> repos) {
+        mRepos = repos;
         notifyItemInserted(mRepos.size() - 1);
     }
 
