@@ -422,6 +422,7 @@ public class ApiModule {
 dagger2的重要优势就是省略了很多重复的创建, 直接依赖注入非常简单.
 
 效果
+
 ![动画](http://img.blog.csdn.net/20160103081221383)
 
 OK, that's all! Enjoy It!
