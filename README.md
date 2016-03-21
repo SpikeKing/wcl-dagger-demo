@@ -1,6 +1,9 @@
 # wcl-dagger-demo
 Dagger2的方法
 
+> 个人博客: http://www.wangchenlong.org/
+> 本文: http://www.wangchenlong.org/2016/03/16/use-dagger-first/
+
 [Dagger](http://google.github.io/dagger/)已经加入Google I/O, 是[Square](https://github.com/square/dagger)开发的依赖注入库, 发布2.0版本. Dagger表示**有向非循环图(Directed Acyclic Graph, DAGger)**. 好处和优点有很多, [参考](https://github.com/codepath/android_guides/wiki/Dependency-Injection-with-Dagger-2), 所有优秀的开源库, 本质上都是让程序更加清晰, 编写更加容易. 让我们来看看怎么使用?
 
 主要内容:
