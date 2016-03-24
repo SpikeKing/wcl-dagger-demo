@@ -1,8 +1,7 @@
 # wcl-dagger-demo
+依赖注入库 Dagger2 的使用方法
 
 > 欢迎Follow我的[GitHub](https://github.com/SpikeKing)
-
-依赖注入库 Dagger2 的使用方法
 
 博客: http://www.wangchenlong.org/
 
