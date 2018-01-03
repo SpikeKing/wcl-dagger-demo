@@ -18,9 +18,7 @@ import clwang.chunyu.me.wcl_dagger_demo.R;
  * Created by wangchenlong on 16/1/2.
  */
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.RepoViewHolder> {
-
     private ArrayList<Repo> mRepos; // 库信息
-
     public ListAdapter() {
         mRepos = new ArrayList<>();
     }
@@ -46,7 +44,6 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.RepoViewHolder
     }
 
     public static class RepoViewHolder extends RecyclerView.ViewHolder {
-
         @Bind(R.id.item_iv_repo_name) TextView mIvRepoName;
         @Bind(R.id.item_iv_repo_detail) TextView mIvRepoDetail;
 

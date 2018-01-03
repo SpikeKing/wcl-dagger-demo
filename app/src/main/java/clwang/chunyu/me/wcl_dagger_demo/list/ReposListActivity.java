@@ -23,8 +23,7 @@ import rx.schedulers.Schedulers;
 public class ReposListActivity extends Activity {
     @Bind(R.id.repos_rv_list) RecyclerView mRvList;
 
-    @Inject
-    GitHubService mGitHubService;
+    @Inject GitHubService mGitHubService;
 
     @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
